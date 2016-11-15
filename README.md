@@ -12,10 +12,13 @@ Simple React Sample!!!!!
 npm install
 npm run build
 ```
-If you want to execute the command with `-w` option, excute this command.
+If you want to execute the command with `-w` option, execute this command.
 ```
 npm run watch
 ```
+
+When you execude `npm run watch` , you can check it by opening `http://localhost:8080/` in your browser with Livereloading.  
+
 
 ## Reference
 [30分間React入門「いいねボタン」作成チュートリアル \| \| Craftsman Software Inc\.](http://c16e.com/1510161700/)

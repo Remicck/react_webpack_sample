@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist/*.js && webpack",
-    "watch": "rm -rf dist/*.js && webpack -w"
+    "watch": "rm -rf dist/*.js && webpack-dev-server --hot && webpack -w"
   },
   "author": "",
   "license": "ISC",
@@ -14,8 +14,10 @@
     "babel-loader": "^6.2.7",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-0": "^6.16.0",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "react": "^15.3.2",

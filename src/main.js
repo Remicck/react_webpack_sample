@@ -95,7 +95,7 @@ class LikeButton extends React.Component {
           style={likeStyle}
           onMouseEnter={::this.onMouseEnter}
           onMouseLeave={::this.onMouseLeave}
-          onClick={::this.onClick}>{this.state.liked ? "✔ " : ""}いいね！</span>
+          onClick={::this.onClick}>{this.state.liked ? "✔ " : ""}いいね！！！</span>
         <span style={styles.counter}>
           <span style={styles.counterBefore}>{" "}</span>
           {this.state.count}
