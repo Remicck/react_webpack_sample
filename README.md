@@ -1,11 +1,11 @@
 react_webpack_sample
 ====
 
-Overview
-
-## Description
 I wanted to study ReactJS, ES6 and Webpack, I made this repository.  
 Annotation: The code of this repository is currently almost the reference site.
+
+## Description
+Simple React Sample!!!!!
 
 ## Usage
 ```
