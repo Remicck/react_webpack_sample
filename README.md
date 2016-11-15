@@ -10,11 +10,12 @@ Simple React Sample!!!!!
 ## Usage
 ```
 npm install
-webpack run build
+npm run build
 ```
 If you want to execute the command with `-w` option, excute this command.
-`webpack run watch`
-
+```
+npm run watch
+```
 
 ## Reference
 [30分間React入門「いいねボタン」作成チュートリアル \| \| Craftsman Software Inc\.](http://c16e.com/1510161700/)
